@@ -1,0 +1,31 @@
+###
+
+GET http://localhost:3000/api/tasks
+
+###
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "name": "aprender",
+    "description": "leer"
+}
+
+###
+
+GET http://localhost:3000/api/tasks/629c39aa0094cd9bbbc59ef3
+
+###
+
+PUT http://localhost:3000/api/tasks/629c3a7a1c900df8b71759ff
+Content-Type: application/json
+
+{
+    "name": "comer",
+    "description":"comer comida"
+}
+
+###
+
+DELETE http://localhost:3000/api/tasks/629c3affcfcbc58c6d7b2b55
