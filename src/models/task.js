@@ -1,9 +1,9 @@
 import { Schema, model, models } from "mongoose"
 
 const taskSchema = new Schema({
-    name: {
+    title: {
         type: String,
-        required: [true, 'name is required'],
+        required: [true, 'title is required'],
     },
     description: {
         type: String,
